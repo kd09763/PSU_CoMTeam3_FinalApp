@@ -2,7 +2,7 @@
 //  mainApp.swift
 //  main
 //
-//  Created by Danny Boy on 11/26/22.
+//  Created by Danila Berezin on 11/26/22.
 //
 
 import SwiftUI
@@ -11,7 +11,7 @@ import SwiftUI
 struct mainApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            HomeView()
         }
     }
 }

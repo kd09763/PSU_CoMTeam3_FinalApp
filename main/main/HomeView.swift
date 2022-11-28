@@ -11,26 +11,30 @@ let screen_size: CGRect = UIScreen.main.bounds
 let screen_width = screen_size.width
 let screen_height = screen_size.height
 
-struct ContentView: View {
+struct HomeView: View {
     var body: some View {
         VStack(spacing: 0.0) {
             // Upper portion with user icon and menu
             HStack {
                 Text("1")
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                    
+                    .offset(y: -10.0)
+                    .foregroundColor(.white)
                 Spacer()
                 Text("2")
                     .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+                    .offset(y: -10.0)
+                    .foregroundColor(.white)
             }
-            .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.617, saturation: 1.0, brightness: 1.0)/*@END_MENU_TOKEN@*/)
+            .frame(height: 50.0)
+            .background(Color(red: 27/255, green: 62/255, blue: 146/255))
             
             // Middle part with app title
             Text("Penn State\nHershey Medical")
                 .font(.title)
                 .multilineTextAlignment(.center)
                 .frame(width: screen_width, height: 120.0)
-                .background(/*@START_MENU_TOKEN@*//*@PLACEHOLDER=View@*/Color(hue: 0.621, saturation: 0.736, brightness: 0.643)/*@END_MENU_TOKEN@*/)
+                .background(Color(red: 40/255, green: 57/255, blue: 98/255))
                 .foregroundColor(.white)
             
             // The grid that contains all the apps
@@ -59,8 +63,8 @@ struct ContentView: View {
     }
 }
 
-struct ContentView_Previews: PreviewProvider {
+struct HomeView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        HomeView()
     }
 }
