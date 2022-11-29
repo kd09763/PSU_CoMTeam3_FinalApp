@@ -8,15 +8,25 @@
 import SwiftUI
 
 struct InfoView: View {
+    var appInfo : AppInfo
+    // This variable allows us to reference the navigation stack (I think). In short, this allows us to go back to the previous view without any issues.
+    @Environment(\.presentationMode) var presentationMode: Binding<PresentationMode>
+    
     var body: some View {
         VStack {
             // Navigation bar and Title
             HStack{
-                Text("1")
-                    .padding(.horizontal)
-                    .offset(y: -10.0)
-                    .foregroundColor(.white)
-                Text("Title")
+                Button (action: {
+                    // This goes back to the previous view
+                    self.presentationMode.wrappedValue.dismiss()
+                }, label: {
+                    Text("1")
+                        .padding(.horizontal)
+                        .offset(y: -10.0)
+                        .foregroundColor(.white)
+                    
+                })
+                Text(appInfo.getTitle())
                     .padding(.horizontal)
                     .offset(y: -10.0)
                     .foregroundColor(.white)
@@ -27,16 +37,16 @@ struct InfoView: View {
             
             // Content
             HStack {
-                Image("rect")
+                Image(appInfo.getLeftImage())
                     .resizable()
                     .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
-                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit imperdiet risus, in accumsan neque gravida iaculis. Fusce feugiat fermentum dolor sed ultrices.")
+                Text(appInfo.getRightText())
                     .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
             }
             HStack {
-                Text("Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque hendrerit imperdiet risus, in accumsan neque gravida iaculis. Fusce feugiat fermentum dolor sed ultrices.")
+                Text(appInfo.getLeftText())
                     .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
-                Image("rect")
+                Image(appInfo.getRightImage())
                     .resizable()
                     .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
             }
@@ -45,7 +55,10 @@ struct InfoView: View {
             ZStack {
                 Color(red: 27/255, green: 62/255, blue: 146/255)
                 Text("About App")
-                    .padding(.all, 10.0)
+                    .onTapGesture {
+                        // This embeds a link
+                        UIApplication.shared.open(URL(string: appInfo.getURL())!, options: [:])
+                    }                    .padding(.all, 10.0)
                     .frame(width: 250.0)
                     .foregroundColor(.white)
                     .background(.green)
@@ -53,11 +66,13 @@ struct InfoView: View {
             }
             .frame(height: 70.0)
         }
+        .navigationBarHidden(true)
+        // ^ This hides the navigation bar, you can see what happens if you comment it out
     }
 }
 
 struct InfoView_Previews: PreviewProvider {
     static var previews: some View {
-        InfoView()
+        InfoView(appInfo: appInfo[0])
     }
 }
