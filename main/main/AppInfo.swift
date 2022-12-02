@@ -11,9 +11,9 @@ struct AppInfo {
     private let icon : String
     private let title : String
     private let leftImage : String
-    private let rightText : String
-    private let rightImage : String
     private let leftText : String
+    private let rightImage : String
+    private let rightText : String
     private let url : String
     
     // Make it conform to "identifiable" protocol to make for loops easier
