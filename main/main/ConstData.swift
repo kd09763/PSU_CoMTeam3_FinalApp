@@ -22,6 +22,14 @@ let appInfo : [AppInfo] = [
         rightImage: "ZoomJoin",
         leftText: "With Zoom you can join meeting using the meeting ID given to you and you can cahnge your name as well as pick whether you want to connect your camera or audio.",
         url: "https://support.zoom.us/hc/en-us/articles/206175806-Frequently-asked-questions"
+    ),
+    AppInfo(
+        icon:"PowerChartLogo",
+        title: "PowerChart",
+        leftImage: "rect",
+        rightText: "temp",
+        rightImage: "rect",
+        leftText: "temp",
+        url: "https://www.childrensmn.org/departments/training/emr/powerchart-touch-user-guide.pdf"
     )
-    // Continue the array...
 ]

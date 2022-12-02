@@ -13,7 +13,7 @@ struct HomeView: View {
             VStack(spacing: 0.0) {
                 // Upper portion with user icon and menu
                 HStack {
-                    Text("1")
+                    Text("<")
                         .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
                         .offset(y: -10.0)
                         .foregroundColor(.white)
