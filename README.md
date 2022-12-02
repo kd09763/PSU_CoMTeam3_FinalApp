@@ -10,3 +10,7 @@
 7) Tiger Connect
 8) Workspace
 9) Zoom
+
+##### Build specifications
+XCode Version: 13.3.1
+iPhone Target: 
