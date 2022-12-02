@@ -1,14 +1,12 @@
 # PSCoM3_App
 
 ##### Applications on shared devices #####
-1) Calculator (system app, probably ignore)
-2) CapMgmt
-3) Care Assistant
-4) FetaLink+
-5) Message Ctr
-6) PowerChartTouch
-7) PowerMic Mobile
-8) Smart Square (Penn State internal application)
-9) Tiger Connect
-10) Workspace
-11) Zoom
+1) CapMgmt
+2) Care Assistant
+3) FetaLink+
+4) Message Ctr
+5) PowerChartTouch
+6) PowerMic Mobile
+7) Tiger Connect
+8) Workspace
+9) Zoom
