@@ -20,19 +20,19 @@ struct InfoView: View {
                     // This goes back to the previous view
                     self.presentationMode.wrappedValue.dismiss()
                 }, label: {
-                    Text("1")
-                        .padding(.horizontal)
-                        .offset(y: -10.0)
-                        .foregroundColor(.white)
+                    Image("back")
+                        .resizable()
+                        .aspectRatio(contentMode: /*@START_MENU_TOKEN@*/.fill/*@END_MENU_TOKEN@*/)
+                        .padding(/*@START_MENU_TOKEN@*/.all, 6.0/*@END_MENU_TOKEN@*/)
+                        .frame(width: 40.0, height: 40.0)
                     
                 })
                 Text(appInfo.getTitle())
                     .padding(.horizontal)
-                    .offset(y: -10.0)
                     .foregroundColor(.white)
                 Spacer()
             }
-            .frame(height: 30.0)
+            .frame(height: 50.0)
             .background(Color(red: 27/255, green: 62/255, blue: 146/255))
             
             // Content
