@@ -20,7 +20,7 @@ let appInfo : [AppInfo] = [
         leftImage: "CapLeft",
         rightText: "This app is used for the management of beds across the hospital system.",
         rightImage: "CapRight",
-        leftText: "In this app, shows you various jobs that for various beds/paitents throughout the hospital.",
+        leftText: "In this app, you can see also various tasks for various beds/paitents throughout the hospital.",
         url: "https://apps.apple.com/us/developer/cerner-corporation/id391140243"
     ),AppInfo(
         icon: "CareLogo",
@@ -28,7 +28,7 @@ let appInfo : [AppInfo] = [
         leftImage: "CareLeft",
         rightText: "Care Assistant is an app that allows you to monitor the vitals of all of your paitents",
         rightImage: "CareRight",
-        leftText: "In addition, Care Asisstant can also be used to see which staff is on a specific patient.",
+        leftText: "In addition, Care Asisstant can also be used to see which staff member is assigned to a specific patient.",
         url: "https://apps.apple.com/us/app/philips-care-assist/id1441008075"
     ),AppInfo(
         icon: "FetaLogo",
@@ -36,7 +36,7 @@ let appInfo : [AppInfo] = [
         leftImage: "FetaLeft",
         rightText: "FetaLink + provides a comprehensive patient list as well as the most recent obsterical data for each patient.",
         rightImage: "FetaRight",
-        leftText: "This app allows Providers to view all montioring data and view clincian, medication, IV administration annotations as well as maternal vital signs from the  fetal monitor.",
+        leftText: "This app allows providers to view all montioring data and view clincian, medication, IV administration annotations as well as maternal vital signs from the  fetal monitor.",
         url: "https://apps.apple.com/us/app/fetalink/id692606737"
     ),AppInfo(
         icon: "MessageLogo",
@@ -52,7 +52,7 @@ let appInfo : [AppInfo] = [
         leftImage: "ChartLeft",
         rightText: "PowerChart Touch allows a provider to complete both ambulatory and inpatient workflows such as review their schedule, patient list, and patient charts",
         rightImage: "ChartRight",
-        leftText: "In addition PowerChart allows providers to: review, create, and sign notes; add and modify allergies, problems & histories; review clinical results and review all orders including medication orders",
+        leftText: "In addition, PowerChart allows providers to: review, create, and sign notes; add and modify allergies, problems & histories; review clinical results and review all orders including medication orders",
         url: "https://www.childrensmn.org/departments/training/emr/powerchart-touch-user-guide.pdf"
     ),
     AppInfo(
@@ -61,7 +61,7 @@ let appInfo : [AppInfo] = [
         leftImage: "MicLeft",
         rightText: "PowerMic Mobile turns your smartphone into a secure wireless microphone for use with Windows-based desktop clinical speech recognition solutions.",
         rightImage: "MicRight",
-        leftText: "optimized for location-to-location to complete clinical documentation using their smartphone as a wireless microphone at the desktop.",
+        leftText: "It is optimized for location-to-location to complete clinical documentation using their smartphone as a wireless microphone at the desktop.",
         url: "https://powermicmobile.nuance.com/powermicmobile/manuals/pmm_enduser_en.pdf"
     ),AppInfo(
         icon: "TigerLogo",
@@ -77,7 +77,7 @@ let appInfo : [AppInfo] = [
         leftImage: "CitrixLeft",
         rightText: "Citrix Workspace app lets you access your SaaS, web apps, mobile, virtual apps, files, and desktops to help you be as productive on the go as you are in the office.",
         rightImage: "CitrixRight",
-        leftText: "Citrix Worspace also lets you immediately acces any activity, actions or navigations directly from the app",
+        leftText: "Citrix Workspace also lets you immediately acces any activity, actions or navigations directly from the app",
         url: "https://help-docs.citrix.com/en-us/citrix-workspace-app/ios/accounts.html"
     ),AppInfo(
         icon: "ZoomLogo",
