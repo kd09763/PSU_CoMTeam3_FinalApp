@@ -13,4 +13,5 @@
 
 ##### Build specifications
 - XCode Version: 13.3.1
-- iPhone Target: 
+- iPhone Target: iPhone SE
+- iOS Version: 15.6.1
