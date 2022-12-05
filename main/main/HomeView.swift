@@ -12,20 +12,20 @@ struct HomeView: View {
         NavigationView {
             VStack(spacing: 0.0) {
                 // Upper portion with user icon and menu
-                HStack {
-                    Text("1")
-                        .foregroundColor(.white)
-                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                        .frame(width: 40.0, height: 40.0)
-                    Spacer()
-                    Text("2")
-                        .foregroundColor(.white)
-                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
-                        .frame(width: 40.0, height: 40.0)
-                }
-                .frame(height: 50.0)
-                .background(Color(red: 27/255, green: 62/255, blue: 146/255))
-                
+//                HStack {
+//                    Text("1")
+//                        .foregroundColor(.white)
+//                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+//                        .frame(width: 40.0, height: 40.0)
+//                    Spacer()
+//                    Text("2")
+//                        .foregroundColor(.white)
+//                        .padding(/*@START_MENU_TOKEN@*/.all/*@END_MENU_TOKEN@*/)
+//                        .frame(width: 40.0, height: 40.0)
+//                }
+//                .frame(height: 50.0)
+//                .background(Color(red: 27/255, green: 62/255, blue: 146/255))
+//                
                 // Middle part with app title
                 Text("Penn State\nHershey Medical")
                     .font(.title)
