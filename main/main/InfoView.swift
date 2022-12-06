@@ -36,18 +36,28 @@ struct InfoView: View {
             .background(Color(red: 27/255, green: 62/255, blue: 146/255))
             // Content
             HStack {
-                Image(appInfo.getLeftImage())
-                    .resizable()
-                    .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
+                HStack {
+                    Spacer()
+                    Image(appInfo.getLeftImage())
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
+                    Spacer()
+                }
                 Text(appInfo.getRightText())
                     .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
             }
             HStack {
                 Text(appInfo.getLeftText())
                     .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
-                Image(appInfo.getRightImage())
-                    .resizable()
-                    .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
+                HStack {
+                    Spacer()
+                    Image(appInfo.getRightImage())
+                        .resizable()
+                        .aspectRatio(contentMode: .fit)
+                        .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
+                    Spacer()
+                }
             }
             // About link
             ZStack {
