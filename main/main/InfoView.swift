@@ -34,7 +34,6 @@ struct InfoView: View {
             }
             .frame(height: 50.0)
             .background(Color(red: 27/255, green: 62/255, blue: 146/255))
-            
             // Content
             HStack {
                 Image(appInfo.getLeftImage())
@@ -50,7 +49,6 @@ struct InfoView: View {
                     .resizable()
                     .padding(/*@START_MENU_TOKEN@*/.horizontal/*@END_MENU_TOKEN@*/)
             }
-            
             // About link
             ZStack {
                 Color(red: 27/255, green: 62/255, blue: 146/255)
