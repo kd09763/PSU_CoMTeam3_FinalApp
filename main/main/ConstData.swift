@@ -36,56 +36,56 @@ let appInfo : [AppInfo] = [
         leftImage: "FetaLeft",
         rightText: "FetaLink + provides a comprehensive patient list as well as the most recent obsterical data for each patient.",
         rightImage: "FetaRight",
-        leftText: "This app allows providers to view all montioring data and view clincian, medication, IV administration annotations as well as maternal vital signs from the  fetal monitor.",
+        leftText: "This app allows providers to view medical annotations as well as vital signs from the fetal monitor.",
         url: "https://apps.apple.com/us/app/fetalink/id692606737"
     ),AppInfo(
         icon: "MessageLogo",
         title: "Message Center",
         leftImage: "MessageLeft",
-        rightText: "The Cerner Message Center is an expanded email system. ",
+        rightText: "The Cerner Message Center is an expanded email system providing a variety of additional features.",
         rightImage: "MessageRight",
-        leftText: "This app allows you to view messages, reminders, consults, receipts, sent items and trash as well as compose, reply, and forward phone message and th ability to cosign orders and endorse results",
+        leftText: "This app allows you to view consults, receipts, forward phone messages, cosign orders and endorse results.",
         url: "https://www.usahealthsystem.com/uploads/pdfs/powerchart-touch.pdf"
     ),AppInfo(
         icon:"PowerChartLogo",
         title: "PowerChartTouch",
         leftImage: "ChartLeft",
-        rightText: "PowerChart Touch allows a provider to complete both ambulatory and inpatient workflows such as review their schedule, patient list, and patient charts",
+        rightText: "PowerChart Touch allows a provider to complete both ambulatory and inpatient workflows.",
         rightImage: "ChartRight",
-        leftText: "In addition, PowerChart allows providers to: review, create, and sign notes; add and modify allergies, problems & histories; review clinical results and review all orders including medication orders",
+        leftText: "PowerChart allows providers to: modify and sign notes, add and modify problems & histories; review clinical results and orders",
         url: "https://www.childrensmn.org/departments/training/emr/powerchart-touch-user-guide.pdf"
     ),
     AppInfo(
         icon: "PowerMicLogo",
         title: "PowerMic",
         leftImage: "MicLeft",
-        rightText: "PowerMic Mobile turns your smartphone into a secure wireless microphone for use with Windows-based desktop clinical speech recognition solutions.",
+        rightText: "PowerMic Mobile turns your smart phone into a secure microphone for use with clinical speech recognition.",
         rightImage: "MicRight",
-        leftText: "It is optimized for location-to-location to complete clinical documentation using their smartphone as a wireless microphone at the desktop.",
+        leftText: "It is optimized for completing clinical documentation using their smartphone as a wireless microphone at the desktop.",
         url: "https://powermicmobile.nuance.com/powermicmobile/manuals/pmm_enduser_en.pdf"
     ),AppInfo(
         icon: "TigerLogo",
         title: "Tiger Connect",
         leftImage: "TigerLeft",
-        rightText: "TigerConnect is a secure text messaging platform that is secure, encrypted, and HITRUST-Certified. ",
+        rightText: "TigerConnect is a secure text messaging platform that is secure, encrypted, and HITRUST-Certified.",
         rightImage: "TigerRight",
-        leftText: "Tiger Connect has additional functionalities such as Patient Alerts & Alarms / Nurse Call, Paging & Answering Service, Voice & Video Calling, and an in-built Scheduling System",
+        leftText: "Additionally, it offers patient alerts & alarms/nurse call, paging services, calling, and a scheduling system",
             url: "https://tigerconnect.com/about/faqs/"
     ),AppInfo(
         icon: "WorkspaceLogo",
         title: "Citrix Workspace",
         leftImage: "CitrixLeft",
-        rightText: "Citrix Workspace app lets you access your SaaS, web apps, mobile, virtual apps, files, and desktops to help you be as productive on the go as you are in the office.",
+        rightText: "Citrix Workspace app lets you access work software and desktops on the go.",
         rightImage: "CitrixRight",
-        leftText: "Citrix Workspace also lets you immediately acces any activity, actions or navigations directly from the app",
+        leftText: "Citrix Workspace allows you to access SaaS, webpages, apps, and files on the cloud.",
         url: "https://help-docs.citrix.com/en-us/citrix-workspace-app/ios/accounts.html"
     ),AppInfo(
         icon: "ZoomLogo",
         title: "Zoom",
         leftImage: "ZoomHome",
-        rightText: "Zoom is a communications platform that allows users to connect with video, audio, phone, and chat. Using Zoom requires an internet connection and a supported device.",
+        rightText: "Zoom is a communications platform that allows users to connect with video, audio, phone, and chat.",
         rightImage: "ZoomJoin",
-        leftText: "With Zoom you can join meeting using the meeting ID given to you and you can cahnge your name as well as pick whether you want to connect your camera or audio.",
+        leftText: "With Zoom you can join a meeting using the meeting ID given to you. It also lets you customize your name and background.",
         url: "https://support.zoom.us/hc/en-us/articles/206175806-Frequently-asked-questions"
     ),
 ]
